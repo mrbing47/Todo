@@ -1,0 +1,5 @@
+#todo-list {
+	padding: 12px 40px;
+	display: flex;
+	flex-wrap: wrap;
+}

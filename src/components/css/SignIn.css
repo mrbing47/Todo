@@ -1,0 +1,73 @@
+body {
+	height: 100vh;
+	display: grid;
+	place-content: center;
+	color: white;
+}
+
+#signin {
+	background-color: rgb(16, 16, 16);
+	color: white;
+	padding: 52px 0px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+}
+
+.error {
+	color: red;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 24px;
+}
+
+section input {
+	color: white;
+	width: 240px;
+	padding: 1em 0.8em;
+	background-color: rgb(44, 44, 44);
+	border: none;
+	outline: none;
+	border-radius: 4px;
+}
+
+section label {
+	margin-bottom: 4px;
+}
+
+.btns-in-signin {
+	background-color: #bb4100;
+	color: white;
+	font-size: 16px;
+	margin: 0px 14px;
+	cursor: pointer;
+}
+
+#signin button {
+	border-radius: 4px;
+	padding: 0.8em 1.5em;
+	align-self: flex-end;
+	margin-right: 80px;
+	border: none;
+	outline: none;
+}
+
+.create-acc {
+	margin: 40px 0px 12px;
+	color: grey;
+}
+
+#signin a {
+	padding: 0.8em;
+	text-decoration: none;
+	text-align: center;
+	width: 240px;
+}

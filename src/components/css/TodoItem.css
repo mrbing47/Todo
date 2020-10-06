@@ -1,0 +1,58 @@
+.todo-item {
+	display: flex;
+	flex-direction: column;
+	margin: 8px 12px;
+	padding: 20px 24px;
+	max-width: 500px;
+}
+
+.complete {
+	border: 2px solid green;
+}
+
+.pending {
+	border: 2px solid red;
+}
+
+.task {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+
+.desc {
+	flex: 1;
+	margin: 12px 0px 32px;
+}
+
+.no-desc {
+	color: rgb(155, 155, 155);
+}
+
+.button-container button {
+	padding: 0.5em 0.8em;
+	margin: 0px 8px;
+	background-color: #bb4100;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+}
+
+.todo-item input {
+	margin-bottom: 12px;
+}
+
+.todo-item input,
+.todo-item textarea {
+	color: white;
+	border-radius: 4px;
+	padding: 0.8em;
+	background-color: rgb(44, 44, 44);
+	border: none;
+	outline: none;
+}
+
+.edited-btn-cont {
+	margin-top: 12px;
+}

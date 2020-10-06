@@ -1,0 +1,33 @@
+#register {
+	color: white;
+	background-color: rgb(16, 16, 16);
+	padding: 52px 0px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+}
+
+#register button {
+	border-radius: 4px;
+	padding: 0.8em 1.5em;
+	align-self: flex-end;
+	margin-right: 80px;
+	border: none;
+	outline: none;
+}
+
+.already-acc {
+	color: grey;
+	margin-top: 28px;
+}
+
+#register a {
+	text-decoration: none;
+	padding: 0.8em;
+	text-align: center;
+	width: 240px;
+	margin-top: 8px;
+}
